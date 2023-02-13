@@ -31,25 +31,25 @@ sudo apt-get install netcat-traditional
 Type this command on the machine terminal. 
 1. To perform simple chat.
 
-```js
-#command for terminal 1
+```sh
+## command for terminal 1
 nc -l -p 8080
 ```
 
-```js
-#command for terminal 2
+```sh
+## command for terminal 2
 nc 127.0.0.1 8080
 ```
 
 2. To perform file transfer.
 
-```js
-#command for terminal 1
+```sh
+## command for terminal 1
 nc -v -w 30 -l -p 8080 >file.txt
 ```
 
-```js
-#command for terminal 2
+```sh
+## command for terminal 2
 nc -v -w 2 127.0.0.1 8080<file.txt
 ```
 
