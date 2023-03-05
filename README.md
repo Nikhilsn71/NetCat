@@ -33,7 +33,7 @@ Type this command on the machine terminal.
 
 ```sh
 ## command for terminal 1
-nc -l -p 8080
+nc -l -v -p 8080
 ```
 
 ```sh
