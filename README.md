@@ -38,7 +38,7 @@ nc -l -v -p 8080
 
 ```sh
 ## command for terminal 2
-nc 127.0.0.1 8080
+nc [ip address] 8080
 ```
 
 2. To perform file transfer.
